@@ -21,7 +21,7 @@ class bmm
         return $response;
     }
 
-    public function postEvent($eventUuid, $content)
+    public function notifyEvent($eventUuid, $content)
     {
         $data = [
             'uuid' => $this->UUID,
