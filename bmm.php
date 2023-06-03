@@ -32,7 +32,7 @@ class bmm
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_URL, $this->backendUrl . '/api/events');
+        curl_setopt($ch, CURLOPT_URL, $this->backendUrl . '/api/events/notify/' . $eventUuid);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_TIMEOUT, 600);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $req);
