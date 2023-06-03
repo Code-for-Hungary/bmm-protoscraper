@@ -1,8 +1,9 @@
 <?php
 
 require_once 'bmm.php';
+$config = require_once 'config.php';
 
-$bmm = new bmm('http://bmmbackend.local', '99492276-d0f2-4097-9688-8ab7dd04322a');
+$bmm = new bmm($config['backendUrl'], $config['uuid']);
 
 switch ($_GET['r']) {
     case 'getevents':
