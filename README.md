@@ -1,7 +1,7 @@
 # Bulletin Monitor scraper proto
 
-Ez a repo a K-Monitor Bulletin Monitor (BM) projektjéhez fejlesztett minta scrapert tartalmazza. A program scrapelést nem végez, hanem példát ad a BM
-backendjével való kommunikációra.
+Ez a repo a K-Monitor Bulletin Monitor (BM) projektjéhez fejlesztett minta scrapert tartalmazza. A program scrapelést nem végez, hanem példát ad a [BM
+backendjével](https://github.com/Code-for-Hungary/bmm-backend "Repo") való kommunikációra.
 Valamilyen webszerverre van szükség a futtatásához, mivel így használható bemutató célra is.
 
 ## Konfigurálás
